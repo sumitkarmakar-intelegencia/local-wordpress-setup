@@ -1,0 +1,134 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/gus-button",
+	"version": "0.1.0",
+	"title": "Gus Button",
+	"category": "gus-blocks",
+	"icon": "button",
+	"description": "Add any button.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"className": true
+	},
+	"attributes": {
+		
+		"btntext": {
+			"type": "string"
+		},
+		"btntextAlign": {
+			"type": "string"
+		},
+		"btnurl": {
+			"type": "string",
+			"default": ""
+		},
+		"btnlinkTarget": {
+			"type": "string",
+			"default": "_self"
+		},
+		"btnbackgroundColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"btnoutlineColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"bttnPaddingX": {
+			"type": "number",
+			"default": 1
+		},
+		"bttnPaddingY": {
+			"type": "number",
+			"default": 0.1
+		},
+		"borderWidth": {
+			"type": "number",
+			"default": 0.1
+		},
+		"borderRadius": {
+			"type": "number",
+			"default": 0
+		},
+		"btntextColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"btnHoverColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"btnHoverTextColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"btnAlign": {
+			"type": "string",
+			"default": "start"
+		},
+		"iconClass":{
+			"type":"string",
+			"default":"default"
+		},
+		"showButtonIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"btnIconColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"btnIconbackgroundColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"btnIconHoverColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"btnIconHoverbackgroundColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"btnoutlineIconColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"bttnIconPaddingX": {
+			"type": "number",
+			"default": 1
+		},
+		"bttnIconPaddingY": {
+			"type": "number",
+			"default": 0.1
+		},
+		"borderIconRadius": {
+			"type": "number",
+			"default": 0.1
+		},
+		"borderIconWidth": {
+			"type": "number",
+			"default": 0.1
+		},
+		"btnIconMarginLeft": {
+			"type": "number",
+			"default": 0
+		}
+		
+	},
+	"textdomain": "gus-button",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

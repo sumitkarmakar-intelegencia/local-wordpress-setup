@@ -1,0 +1,57 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-gus-button .richtext-button {
+  color: var(--btn-text-color);
+  background-color: var(--btn-background-color);
+  border: var(--border-width) solid var(--btn-outline-color);
+  border-radius: var(--border-radius);
+  padding-right: var(--btn-padding-left);
+  padding-left: var(--btn-padding-right);
+  padding-top: var(--btn-padding-top);
+  padding-bottom: var(--btn-padding-bottom);
+  text-decoration: none;
+}
+.wp-block-create-block-gus-button .richtext-arrow {
+  background-color: var(--btn-icon-background-color);
+  margin-right: var(--btn-icon-margin-left);
+  border: var(--border-icon-width) solid var(--btn-outline-icon-color);
+  border-radius: var(--border-icon-radius);
+  padding-right: var(--btn-padding-icon-left);
+  padding-left: var(--btn-padding-icon-right);
+  padding-top: var(--btn-padding-icon-top);
+  padding-bottom: var(--btn-padding-icon-bottom);
+}
+.wp-block-create-block-gus-button .richtext-arrow::after {
+  display: inline-block;
+  height: 1.75rem;
+  width: 1.75rem;
+  background-size: cover;
+  background-color: var(--btn-icon-color);
+  -webkit-mask: var(--svg);
+  mask: var(--svg);
+  content: "";
+  position: relative;
+  --svg: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNy45MjQiIGhlaWdodD0iMjcuOTI0IiB2aWV3Qm94PSIwIDAgMjcuOTI0IDI3LjkyNCI+CiAgPGcgaWQ9IkdydXBvXzE1NzA5IiBkYXRhLW5hbWU9IkdydXBvIDE1NzA5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjc4IC0yNTQuOTM4KSI+CiAgICA8ZyBpZD0iR3J1cG9fMTQ1NjQiIGRhdGEtbmFtZT0iR3J1cG8gMTQ1NjQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk4IC00NzMuMDYzKSI+CiAgICAgIDxnIGlkPSJHcnVwb18xNDQ5MCIgZGF0YS1uYW1lPSJHcnVwbyAxNDQ5MCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTU2NDYuNTc2IC0xMDQxOSkiPgogICAgICAgIDxyZWN0IGlkPSJSZWN0w6FuZ3Vsb18xNDAiIGRhdGEtbmFtZT0iUmVjdMOhbmd1bG8gMTQwIiB3aWR0aD0iMjcuOTI0IiBoZWlnaHQ9IjI3LjkyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE1NDY2LjU3NiAxMTE0NykiIGZpbGw9Im5vbmUiLz4KICAgICAgPC9nPgogICAgPC9nPgogICAgPGcgaWQ9IkdydXBvXzE1NzA4IiBkYXRhLW5hbWU9IkdydXBvIDE1NzA4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyODIuOTgxIDI2NC4yNikiPgogICAgICA8cGF0aCBpZD0iTMOtbmVhXzE1IiBkYXRhLW5hbWU9IkzDrW5lYSAxNSIgZD0iTTkuNTksMUgwQTEsMSwwLDAsMS0xLDAsMSwxLDAsMCwxLDAtMUg5LjU5YTEsMSwwLDAsMSwxLDFBMSwxLDAsMCwxLDkuNTksMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDguMDU3IDQuNjQpIi8+CiAgICAgIDxwYXRoIGlkPSJMw61uZWFfMTgiIGRhdGEtbmFtZT0iTMOtbmVhIDE4IiBkPSJNMi41MjQsMUgwQTEsMSwwLDAsMS0xLDAsMSwxLDAsMCwxLDAtMUgyLjUyNGExLDEsMCwwLDEsMSwxQTEsMSwwLDAsMSwyLjUyNCwxWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMTkgNC42NCkiLz4KICAgICAgPHBhdGggaWQ9IkzDrW5lYV8xOSIgZGF0YS1uYW1lPSJMw61uZWEgMTkiIGQ9Ik0uNSwxSDBBMSwxLDAsMCwxLTEsMCwxLDEsMCwwLDEsMC0xSC41YTEsMSwwLDAsMSwxLDFBMSwxLDAsMCwxLC41LDFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDQuNjQpIi8+CiAgICAgIDxwYXRoIGlkPSJMw61uZWFfMTYiIGRhdGEtbmFtZT0iTMOtbmVhIDE2IiBkPSJNNi41NjEsMUgwQTEsMSwwLDAsMS0xLDAsMSwxLDAsMCwxLDAtMUg2LjU2MWExLDEsMCwwLDEsMSwxQTEsMSwwLDAsMSw2LjU2MSwxWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTMuMDA3IDApIHJvdGF0ZSg0NSkiLz4KICAgICAgPHBhdGggaWQ9IkzDrW5lYV8xNyIgZGF0YS1uYW1lPSJMw61uZWEgMTciIGQ9Ik0wLDFBMSwxLDAsMCwxLTEsMCwxLDEsMCwwLDEsMC0xSDYuNTYxYTEsMSwwLDAsMSwxLDEsMSwxLDAsMCwxLTEsMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE3LjY0NiA0LjY0KSByb3RhdGUoMTM1KSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==);
+}
+.wp-block-create-block-gus-button .btn-arrow-together.richtext-button {
+  align-items: center;
+  margin-top: var(--btn-margin-top);
+}
+.wp-block-create-block-gus-button .btn-arrow-together.richtext-button:hover {
+  background-color: var(--btn-hover-color);
+  color: var(--btn-hover-text-color);
+}
+.wp-block-create-block-gus-button .btn-arrow-together.richtext-button:hover i.richtext-arrow {
+  background-color: var(--btn-icon-hover-background-color);
+  color: var(--btn-icon-hover-text-color);
+}
+.wp-block-create-block-gus-button .btn-arrow-together.richtext-button:hover i.richtext-arrow::after {
+  background-color: var(--btn-icon-hover-color);
+}
